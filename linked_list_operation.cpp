@@ -137,8 +137,19 @@ int main(){
     // cout<<temp->data<<" "; //3
     // cout<<temp->next<<" "; // 0
     // cout<<temp;            //0xe60eb8 node address
-
-
-
     return 0;
 }
+
+
+/* OUTPUT:
+Insertion at head
+ 1->2->3->4->5->NULL
+Inserion at begin
+ 6->1->2->3->4->5->NULL
+Deletion at begining
+ 1->2->3->4->5->NULL
+Deletion value=23 
+Value 23 is not found
+ 1->2->3->4->5->NULL
+Reverse Linked list Recursive method: 5->4->3->2->1->NULL
+*/
